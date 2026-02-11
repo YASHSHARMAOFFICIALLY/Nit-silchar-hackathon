@@ -48,7 +48,9 @@ body {
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
+
+  --font-sans: var(--font-manrope), var(--font-inter), ui-sans-serif, system-ui;
+  --font-heading: var(--font-manrope);
 }
 
 body {
