@@ -51,7 +51,7 @@ export default function ThreePillarsSection() {
                   Smart Decomposition
                 </h3>
                 
-                <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed mb-6 text-center flex-1">
+                <p className="text-gray-900 dark:text-gray-300 text-base leading-relaxed mb-6 text-center flex-1">
                   Our AI doesn't just break tasks down—it understands context, estimates effort, and creates a roadmap your brain can actually follow.
                 </p>
 

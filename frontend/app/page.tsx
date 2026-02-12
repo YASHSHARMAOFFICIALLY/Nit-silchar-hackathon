@@ -5,6 +5,7 @@ import { Navbar } from "@/components/landing/navbar";
 import Hero from "@/components/landing/hero";
 import PainPointSection from "@/components/landing/painpointsection";
 import ThreePillarsSection from "@/components/landing/card";
+import SingleTaskDemo from "@/components/landing/work";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero/>
       <PainPointSection/>
       <ThreePillarsSection/>
+      <SingleTaskDemo/>
     </div>
   
     
