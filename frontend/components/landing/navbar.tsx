@@ -63,29 +63,19 @@ export const Navbar = () =>{
 //     )
 //  }
 export const DesktopNavbar = () => { 
-    // Fixed spelling
     const router = useRouter()
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b bg-background/95 backdrop-blur">
       <Container className="py-4  items-center justify-between hidden lg:flex">
-        {/* 1. Logo stands alone */}
         <Logo />
-
-        {/* 2. Navigation Links */}
-        <div className="flex items-center gap-4 ">
+        <div className="flex items-center gap-4   ">
           {navlink.map((item, index) => (
-            <Link key={index} href={item.href} className="text-m  font-medium  leading-none   ">
+            <Link key={index} href={item.href} className="text-m  font-semibold  leading-none  ">
               {item.title}
             </Link>
           ))}
         </div>
-
-        {/* 3. Actions */}
-        {/* <div className="flex items-center gap-4">
-          <Link href="/login" className="text-sm px-4 py-2 font-medium">Login</Link>
-          <Button>Signup</Button>
-        </div> */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 ">
               {/* <ThemeToggle /> */}
               <Button variant="ghost" onClick={() => router.push("/signup")}>
                yash
