@@ -107,7 +107,7 @@ export default function SingleTaskDemo() {
           {/* Demo Screen */}
           <div className="relative bg-white dark:bg-gray-800 rounded-3xl shadow-2xl border-4 border-gray-200 dark:border-gray-700 overflow-hidden min-h-[500px]">
             {/* App Header */}
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-4 flex items-center justify-between">
+            <div className="bg-gradient-to-r from-blue-300 to-purple-400 px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -30,7 +30,7 @@ export const ModeToggle = () => {
             aria-label="Toggle theme"
         >
             <SunIcon 
-                size={18} 
+                size={1809} 
                 className="rotate-0 scale-100 transition-all duration-300 dark:-rotate-90 dark:scale-0" 
             />
             <MoonIcon 
