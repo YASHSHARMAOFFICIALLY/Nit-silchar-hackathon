@@ -65,7 +65,7 @@ export default function Hero() {
               {/* Image Container with Overlay */}
               <div className="relative rounded-2xl overflow-hidden group shadow-2xl">
                 {/* Placeholder for actual app screenshot/image */}
-                <div className="aspect-[9/11] bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 flex items-center justify-center relative overflow-hidden">
+                <div className="aspect-[9/11] bg-gradient-to-br from-cyan-400 via-blue-400 to-blue-600 flex items-center justify-center relative overflow-hidden">
                   {/* Animated Background Pattern */}
                   <div className="absolute inset-0 opacity-20">
                     <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-2xl animate-float"></div>
